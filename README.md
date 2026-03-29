@@ -1,36 +1,28 @@
+🇧🇷 Português | 🇺🇸 [English](#english)
+
 # stm32-dsp-int
 
-Processamento Digital de Sinais com ADC, DAC e interrupções no STM32F4xx.
+DSP em tempo real no STM32F4xx: ADC → processamento → DAC com interrupções.
 
-## Descrição
-
-Projeto de DSP em tempo real que realiza aquisição via ADC, processamento do sinal e saída via DAC, sincronizados por timer e utilizando interrupções para garantir taxas de amostragem precisas.
-
-## Periféricos utilizados
-
-| Periférico | Função |
-|------------|--------|
-| ADC1 | Aquisição do sinal de entrada |
-| DAC | Saída do sinal processado |
-| TIM2 | Trigger de amostragem |
-| USART2 | Debug / comunicação serial |
-
-## Estrutura
-
-```
-DSP_Int/
-├── Src/
-│   ├── main.c
-│   ├── stm32f4xx_it.c   # Handlers de interrupção
-│   └── system_stm32f4xx.c
-├── Inc/
-└── Drivers/
-```
+**Periféricos:** ADC1 · DAC · TIM2 · USART2
 
 ## IDE
 
 Atollic TrueSTUDIO 9.3 / STM32CubeIDE
-
-## Escola
-
 Centro Tecnológico Liberato — Novo Hamburgo/RS
+
+---
+
+<a name="english"></a>
+🇧🇷 [Português](#) | 🇺🇸 English
+
+# stm32-dsp-int
+
+Real-time DSP on STM32F4xx: ADC → processing → DAC with interrupts.
+
+**Peripherals:** ADC1 · DAC · TIM2 · USART2
+
+## IDE
+
+Atollic TrueSTUDIO 9.3 / STM32CubeIDE
+Centro Tecnológico Liberato — Novo Hamburgo/RS, Brazil
